@@ -6,7 +6,7 @@ unset($_SESSION['errorMessage']);
 
 <body>
 
-<h1>分を秒に変換しよう</h1>
+<h1>時間を秒に変換しよう</h1>
 
 <p><?php echo $errorMessage; ?></p>
 
@@ -15,8 +15,8 @@ unset($_SESSION['errorMessage']);
     <table>
 
       <tr>
-        <td><p>時間(分)</p></td>
-        <td><p><input type="number" name="time" placeholder="分"></p></td>
+        <td><p>時間(時)</p></td>
+        <td><p><input type="number" name="time" placeholder="時"></p></td>
       </tr>
 
     </table>
